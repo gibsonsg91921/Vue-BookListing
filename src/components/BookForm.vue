@@ -1,5 +1,5 @@
 <template>
-  <form class="" action="#" method="post" onsubmit="bookSubmit(bookTitle, bookAuthor)">
+  <form class="" action="#" v-on="submit.prevent" method="post" onsubmit="bookSubmit(bookTitle, bookAuthor)">
     <input type="text" name="title" value="" placeholder="Book Title" v-model="bookTitle">
     <input type="text" name="author" value="" placeholder="Book Author" v-model="bookAuthor">
     <button type="submit" name="button">Add Book</button>

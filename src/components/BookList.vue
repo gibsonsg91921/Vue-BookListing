@@ -21,6 +21,7 @@ export default {
       title: "All Books",
       components: {
         BookItem,
+        BookForm
       },
       books: [
         {title: 'Self-Reliance', author: 'Ralph Waldo Emerson'},
